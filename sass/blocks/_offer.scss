@@ -1,0 +1,149 @@
+.offer {
+	margin-bottom: 80px;
+
+	background-color: var(--color-bg-offer);
+
+	@media(max-width: 895px) {
+		margin-bottom: 70px;
+	}
+
+	@media(max-width: 460px) {
+		margin-bottom: 50px;
+	}
+}
+
+.offer__inner {
+	padding: 80px 0 100px;
+
+	display: flex;
+	align-items: center;
+	column-gap: 90px;
+
+	@media(max-width: 1200px) {
+		flex-direction: column;
+		column-gap: 0px;
+		row-gap: 50px;
+		padding: 50px 0;
+	}
+}
+
+.offer__descr {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+
+	@media(max-width: 1200px) {
+		padding: 0 80px;
+		text-align: center;
+	}
+
+	@media(max-width: 1200px) {
+		padding: 0 40px;
+	}
+
+	@media(max-width: 460px) {
+		padding: 0px;
+		row-gap: 25px;
+	}
+}
+
+.offer__descr-text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 150%;
+
+	@media(max-width: 865px) {
+		font-size: 14px;
+	}
+}
+
+.offer__descr-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+}
+
+.offer-item {
+	display: flex;
+	column-gap: 16px;
+
+	@media(max-width: 1200px) {
+		flex-direction: column;
+		column-gap: 0px;
+		row-gap: 20px;
+	}
+
+	@media(max-width: 460px) {
+		row-gap: 25px;
+	}
+}
+
+.offer-item__img {
+	@media(max-width: 1200px) {
+		width: 200px;
+		margin: 0 auto;
+	}
+
+	@media(max-width: 460px) {
+		width: 140px;
+	}
+}
+
+.offer-item__descr {
+	display: flex;
+	flex-direction: column;
+	row-gap: 4px;
+}
+
+.offer-item__title {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0.216px;
+}
+
+.offer-item__text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.offer__descr-btn {
+	max-width: 236px;
+
+	@media(max-width: 1200px) {
+		margin: 0 auto;
+	}
+}
+
+.offer__imgs {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+
+	@media(max-width: 460px) {
+		gap: 0px;
+	}
+}
+
+.offer__img {
+	@media(max-width: 1200px) {
+		width: 145px;
+	}
+
+	@media(max-width: 460px) {
+		width: 140px;
+	}
+}
+
+.offer__img:first-child,
+.offer__img:last-child {
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.offer__img:nth-child(2),
+.offer__img:nth-child(3) {
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}

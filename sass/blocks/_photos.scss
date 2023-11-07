@@ -1,0 +1,74 @@
+.photos {
+	margin-bottom: 2px;
+}
+
+.photos-title {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.photos__items {
+	margin-bottom: 50px;
+
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	flex-wrap: wrap;
+
+	@media(max-width: 1220px) {
+		justify-content: center;
+		gap: 10px;
+	}
+
+	@media(max-width: 895px) {
+		margin-bottom: 35px;
+	}
+}
+
+.photos__item-img {
+	border-radius: 6px;
+
+	@media(max-width: 1220px) {
+		width: 280px;
+		height: 250px;
+		object-fit: cover;
+	}
+}
+
+.photos__item-block {
+	position: relative;
+	cursor: pointer;
+
+	@media(max-width: 1220px) {
+		width: 280px;
+		height: 250px;
+
+	}
+}
+
+.photos__item-block::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0px;
+	height: 24px;
+	transform: translate(-50%, -50%);
+	background-image: url(../../images/icons/zoom.svg);
+	background-repeat: no-repeat;
+	transition: width 350ms ease-in;
+}
+
+.photos__item-block:hover::after {
+	width: 24px;
+}
+
+.photos-btn {
+	max-width: 178px;
+	display: block;
+	margin: 0 auto;
+
+	@media(max-width: 460px) {
+		max-width: 133px;
+	}
+}

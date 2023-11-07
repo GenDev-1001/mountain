@@ -1,0 +1,66 @@
+.asset-card {
+  width: 194px;
+  min-height: 244px;
+  padding: 30px 24px 26px 25px;
+  position: relative;
+  border-radius: 24px;
+  color: #000; }
+  .asset-card--violet {
+    background: #E5DEF0; }
+  .asset-card--green {
+    background: #D6EDDA; }
+  .asset-card--orange {
+    background: #F6F0D8; }
+  @media (max-width: 1270px) {
+    .asset-card {
+      padding: 20px;
+      min-height: 220px; } }
+
+.asset-card__value {
+  margin-bottom: 5px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 0.56; }
+
+.asset-card__fiat {
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: 0.02em; }
+
+.asset-card__settings {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 37px;
+  right: 24px; }
+  @media (max-width: 1270px) {
+    .asset-card__settings {
+      top: 25px;
+      right: 5px; } }
+
+.asset-card__footer {
+  position: absolute;
+  bottom: 26px;
+  display: flex;
+  column-gap: 32px;
+  align-items: center; }
+
+.asset-card__icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  background: #FFF; }
+
+.asset-card__income {
+  color: #896AB9;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.3px; }
+
+/*# sourceMappingURL=asset-card.css.map */

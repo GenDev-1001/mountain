@@ -1,0 +1,89 @@
+:root {
+	--color-white: #FDFDFD;
+	--color-black: #18121E;
+	--color-dark-green: #1A3E3E;
+	--color-orange: #F2BE22;
+	--color-bg-offer: #F3F5F4;
+	--color-bg-footer: #1A3E3E;
+}
+
+@font-face {
+	font-family: "NextArt";
+	src: url("../../fonts/NextArtBold.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-white);
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	font-family: 'Nunito Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 150%;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.green-btn {
+	padding: 16px 36px;
+
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.192px;
+
+	border-radius: 4px;
+	background: var(--color-dark-green);
+	transition: filter 350ms ease-in;
+
+	@media(max-width: 460px) {
+		padding: 12px 20px;
+		font-size: 14px;
+	}
+}
+
+.green-btn:hover {
+	filter: opacity(0.8);
+}
