@@ -116,7 +116,7 @@ body {
       font-size: 14px; } }
 
 .header {
-  background-image: url(../../images/bg/bg-header.jpg);
+  background-image: url(../images/bg/bg-header.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -228,7 +228,7 @@ body {
 .top-form__block::after {
   content: '';
   position: absolute;
-  background-image: url(../../images/icons/arrow-down.svg);
+  background-image: url(../images/icons/arrow-down.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 20px;
@@ -237,7 +237,7 @@ body {
   right: 16px; }
 
 .top-form__block:nth-child(even):after {
-  background-image: url(../../images/icons/calendar.svg);
+  background-image: url(../images/icons/calendar.svg);
   width: 18px;
   height: 18px; }
 
@@ -335,7 +335,7 @@ body {
   left: 0px;
   width: 350px;
   height: 400px;
-  background-image: url(../../images/video/video-1.jpg);
+  background-image: url(../images/video/video-1.jpg);
   background-repeat: no-repeat;
   border-radius: 24px; }
   @media (max-width: 460px) {
@@ -361,7 +361,7 @@ body {
   transform: translate(-50%, -50%);
   width: 50px;
   height: 50px;
-  background-image: url(../../images/video/video-btn.svg);
+  background-image: url(../images/video/video-btn.svg);
   background-repeat: no-repeat;
   cursor: pointer; }
 
@@ -575,7 +575,7 @@ body {
   left: 8px;
   width: 24px;
   height: 24px;
-  background-image: url("../../images/popular/star.svg");
+  background-image: url("../images/popular/star.svg");
   background-repeat: no-repeat; }
 
 .popular-card__bottom {
@@ -797,7 +797,7 @@ body {
   width: 0px;
   height: 24px;
   transform: translate(-50%, -50%);
-  background-image: url(../../images/icons/zoom.svg);
+  background-image: url(../images/icons/zoom.svg);
   background-repeat: no-repeat;
   transition: width 350ms ease-in; }
 
@@ -1037,7 +1037,7 @@ body {
 .footer-menu__item::after {
   content: '';
   position: absolute;
-  background-image: url(../../images/icons/arrow-right.svg);
+  background-image: url(../images/icons/arrow-right.svg);
   background-repeat: no-repeat;
   height: 10px;
   width: 6px;
