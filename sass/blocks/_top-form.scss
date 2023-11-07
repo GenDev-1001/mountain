@@ -29,7 +29,7 @@
 .top-form__block::after {
 	content: '';
 	position: absolute;
-	background-image: url(../../images/icons/arrow-down.svg);
+	background-image: url(../images/icons/arrow-down.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 20px;
@@ -39,7 +39,7 @@
 }
 
 .top-form__block:nth-child(even):after {
-	background-image: url(../../images/icons/calendar.svg);
+	background-image: url(../images/icons/calendar.svg);
 	width: 18px;
 	height: 18px;
 }
