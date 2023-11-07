@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "NextArt";
-  src: url("../../fonts/NextArtBold.otf") format("truetype");
+  src: url("../fonts/NextArtBold.otf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 * {
