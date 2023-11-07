@@ -157,11 +157,11 @@ body {
       top: 0;
       right: 0;
       padding: 100px 10px 40px;
-      transform: translateX(300%);
+      transform: translateY(-300%);
       transition: transform 350ms ease-in; } }
 
 .nav__menu--active {
-  transform: translateX(0%);
+  transform: translateY(0%);
   height: 100%;
   z-index: 998; }
 
