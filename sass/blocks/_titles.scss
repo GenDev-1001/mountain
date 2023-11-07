@@ -1,0 +1,51 @@
+.title-1 {
+	font-family: 'NextArt', sans-serif;
+	color: var(--color-white);
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+
+	@media(max-width: 1200px) {
+		font-size: 40px;
+	}
+
+	@media(max-width: 895px) {
+		font-size: 30px;
+	}
+
+	@media(max-width: 460px) {
+		font-size: 20px;
+	}
+}
+
+.title-2 {
+	color: var(--color-black);
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 120%;
+
+	@media(max-width: 895px) {
+		font-size: 24px;
+	}
+
+	@media(max-width: 460px) {
+		font-size: 18px;
+	}
+}
+
+.title-span {
+	color: var(--color-orange);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom: 8px;
+
+	@media(max-width: 895px) {
+		font-size: 16px;
+	}
+
+	@media(max-width: 460px) {
+		font-size: 14px;
+	}
+}

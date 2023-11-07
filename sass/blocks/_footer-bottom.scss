@@ -1,0 +1,25 @@
+.footer__bottom {
+	padding: 24px 0px;
+	color: var(--color-white);
+	background-color: var(--color-black);
+}
+
+.footer__bottom-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 18px;
+
+	@media(max-width: 630px) {
+		flex-direction: column;
+		row-gap: 10px;
+		font-size: 12px;
+	}
+}
+
+.footer__bottom-right {
+	text-decoration-line: underline;
+}

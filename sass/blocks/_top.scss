@@ -1,0 +1,28 @@
+.top {
+	padding-top: 460px;
+
+	@media(max-width: 1200px) {
+		padding-top: 200px;
+	}
+
+	@media(max-width: 895px) {
+		padding-top: 95px;
+	}
+}
+
+.top-title {
+	margin-bottom: 40px;
+
+	@media(max-width: 1200px) {
+		margin-bottom: 100px;
+	}
+
+	@media(max-width: 895px) {
+		margin-bottom: 65px;
+		text-align: center;
+
+		br {
+			display: none;
+		}
+	}
+}

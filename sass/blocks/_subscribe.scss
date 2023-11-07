@@ -1,0 +1,138 @@
+.subscribe {
+	position: relative;
+	top: 98px;
+
+	@media(max-width: 730px) {
+		top: 70px;
+	}
+}
+
+.subscribe__inner {
+	padding: 40px 100px;
+
+	border-radius: 6px;
+	background: var(--color-white);
+	box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
+
+	display: flex;
+	column-gap: 64px;
+	align-items: center;
+
+	@media(max-width: 1200px) {
+		padding: 25px 30px;
+		column-gap: 10px;
+	}
+
+	@media(max-width: 895px) {
+		padding: 15px 10px;
+		flex-direction: column;
+		row-gap: 20px;
+		column-gap: 0px;
+	}
+}
+
+.subscribe-title {
+	width: 695px;
+
+	@media(max-width: 1200px) {
+		width: 640px;
+	}
+
+	@media(max-width: 895px) {
+		text-align: center;
+		width: 100%;
+	}
+}
+
+.subscribe-title__span {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+
+	@media(max-width: 895px) {
+		font-size: 14px;
+	}
+}
+
+.subscribe-title-2 {
+	font-size: 26px;
+	font-weight: 800;
+	line-height: 120%;
+
+	@media(max-width: 895px) {
+		font-size: 20px;
+	}
+}
+
+.subscribe-mail {
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+}
+
+.subscribe-form__title {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+.subscribe-form {
+	display: flex;
+	column-gap: 16px;
+	align-items: center;
+
+	@media(max-width: 910px) {
+		flex-direction: column;
+		row-gap: 10px;
+		column-gap: 0px;
+	}
+}
+
+.subscribe-form__input {
+	width: 249px;
+	height: 44px;
+	padding: 0px 16px;
+
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	border: none;
+	border-radius: 4px;
+	background: var(--color-bg-offer);
+
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+
+	@media(max-width: 910px) {
+		width: 100%;
+	}
+}
+
+.subscribe-form__input::placeholder {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.subscribe-form__btn {
+	height: 44px;
+	padding: 12px 24px;
+	color: var(--color-white);
+
+	@media(max-width: 1200px) {
+		height: 40px;
+		padding: 10px;
+	}
+
+	@media(max-width: 910px) {
+		width: 100%;
+	}
+}
+
+.subscribe-form__text {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 18px;
+}
